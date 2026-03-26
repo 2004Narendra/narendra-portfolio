@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-dark: var(--theme-dark, #0a0a0a);
+  --color-primary: var(--theme-primary, #0a0a0a);
+  --color-secondary: var(--theme-secondary, #171717);
+  --color-text: var(--theme-text, #f8fafc);
+  --color-text-muted: var(--theme-text-muted, #94a3b8);
+  --color-white: var(--theme-white, #ffffff);
+  --color-black: var(--theme-black, #000000);
+
+  --color-accent-emerald: #10b981;
+  --color-accent-titanium: #cbd5e1;
+  --color-accent-cyan: #10b981;
+  --color-accent-violet: #10b981;
+
+  --font-sans: Inter, sans-serif;
+  --font-heading: Poppins, sans-serif;
+
+  --animate-spin-slow: spin 3s linear infinite;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-dark text-text font-sans antialiased selection:bg-accent-cyan/30 selection:text-white;
+  }
+}
+
+:root.light-theme {
+  --theme-dark: #f8fafc;
+  --theme-primary: #ffffff;
+  --theme-secondary: #e2e8f0;
+  --theme-text: #0f172a;
+  --theme-text-muted: #475569;
+  --theme-white: #0f172a;
+  --theme-black: #ffffff;
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-accent-cyan to-accent-violet;
+  }
+
+  .glass-card {
+    @apply bg-secondary/30 backdrop-blur-md border border-white/10;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dark;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-secondary rounded-full border-2 border-dark;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-accent-cyan/50;
+}
