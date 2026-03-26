@@ -1,4 +1,4 @@
-# 🚀 Mayank's Developer Portfolio
+# 🚀 Narendra's Developer Portfolio
 
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-7.0-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev/)
@@ -8,7 +8,7 @@
 
 A high-performance, visually stunning developer portfolio designed to showcase projects, skills, and technical journey. Built with a focus on smooth animations, responsive design, and modern web standards.
 
-[**Live Demo**](https://01mayankk.github.io/portfolio/) · [**Report Bug**](https://github.com/01mayankk/portfolio/issues) · [**Request Feature**](https://github.com/01mayankk/portfolio/issues)
+[**Live Demo**](https://2004Narendra.github.io/portfolio/) · [**Report Bug**](https://github.com/2004Narendra/portfolio/issues) · [**Request Feature**](https://github.com/2004Narendra/portfolio/issues)
 
 ---
 
@@ -98,14 +98,10 @@ Contributions are what make the open source community such an amazing place to l
 
 ## 👤 Contact
 
-**Mayank Kumar**
-- **LinkedIn**: [@01mayank](https://www.linkedin.com/in/01mayank/)
-- **GitHub**: [@01mayankk](https://github.com/01mayankk)
-- **Email**: 02mayankk@gmail.com
-- **LeetCode**: [@01mayank](https://leetcode.com/u/01mayank/)
-
+**Narendra Bethapudi**
+-
 ---
 
 <p align="center">
-  Developed with ❤️ by Mayank Kumar
+  Developed with ❤️ by Narendra
 </p>
